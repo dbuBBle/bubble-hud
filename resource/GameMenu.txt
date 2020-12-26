@@ -1,0 +1,114 @@
+"GameMenu"
+{
+//Written Buttons//
+	"Console"
+	{
+		"label"			"console"
+		"command"		"engine showconsole; clear; ping; echo <console cleared>"
+	}
+	
+	"play"
+	{
+		"label"			"play"
+		"command"		""
+	}
+	
+	"servers"
+	{
+		"label"			"servers"
+		"command"		"OpenServerBrowser"
+	} 
+	
+	"items"
+	{
+		"label"			"items"
+		"command"		"engine open_charinfo"
+	}
+	
+	"options"
+	{
+		"label"			"options"
+		"command"		"OpenOptionsDialog"
+	}
+	
+	"disconnect"
+	{
+		"label"			"disconnect"
+		"command"		"engine disconnect"
+		"OnlyInGame"	"1"
+	}
+	
+	"quit"
+	{
+		"label"			"quit"
+		"command"		"engine replay_confirmquit"
+		"OnlyAtMenu"	"1"
+	}
+
+//Image Buttons//
+
+	"createserver"
+	{
+		"label"			""
+		"command"		"OpenCreateMultiplayerGameDialog"
+	}
+	
+	"store"
+	{
+		"label"			""
+		"command"		"engine open_store"
+	}	
+	
+	"advancedoptions"
+	{
+		"label"			""
+		"command"		"engine opentf2options"
+	}	
+	
+	"hudreloadscheme"
+	{
+		"label"			""
+		"command"		"engine hud_reloadscheme"
+	}
+	
+	"demoui"
+	{
+		"label"			""
+		"command"		"demoui"
+	}	
+	
+	"minmode"
+	{
+		"label"			""
+		"command"		"engine toggle cl_hud_minmode"
+		"OnlyInGame"	"1"
+	}
+	
+	"playermodel"
+	{
+		"label"			""
+		"command"		"engine toggle cl_hud_playerclass_use_playermodel"
+		"OnlyInGame"	"1"
+	}
+	
+	"viewmodels"
+	{
+		"label"			""
+		"command"		"engine toggle tf_use_min_viewmodels"
+		"OnlyInGame"	"1"
+	}
+
+	"muteplayer"
+	{
+		"label"			""
+		"command"		"OpenPlayerListDialog"
+		"OnlyInGame"	"1"
+	}	
+	
+	"callvote"
+	{
+		"label"			""
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+	}
+}
