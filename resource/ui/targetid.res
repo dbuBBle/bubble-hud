@@ -49,10 +49,10 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"TargetIDBox"
-		"xpos"						"100"
+		"xpos"						"40"
 		"ypos"						"5"
 		"zpos"						"-1"
-		"wide"						"100"
+		"wide"						"120"
 		"tall"						"15"
 		"visible"					"1"
 		"enabled"					"1"
@@ -63,7 +63,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Textfont16"
+		"font"			"Textfont14"
 		"fgcolor_override"  "bubblewhite"
 		"xpos"			"8"
 		"ypos"			"0"
